@@ -1,0 +1,37 @@
+Project Overview
+The ATM Management System is a Java-based console application that simulates an Automated Teller Machine (ATM). It allows users to check balance, deposit money, withdraw cash, and exit the system securely. The project is built using Object-Oriented Programming (OOP) principles and ensures a user-friendly banking experience.
+
+Features
+✅ User Authentication: Users must enter a valid PIN to access their account.
+✅ Balance Inquiry: Displays the current account balance.
+✅ Deposit Money: Allows users to deposit cash into their account.
+✅ Withdraw Money: Users can withdraw money based on the available balance.
+✅ Secure Transactions: Ensures users cannot withdraw more than their balance.
+✅ Exit Option: Allows users to exit the system safely.
+
+Technologies Used
+Java (Core Java, OOP Concepts)
+Scanner Class (User Input Handling)
+Conditional Statements & Loops
+Project Structure
+
+/ATM-Management-System
+│── src/
+│   ├── ATM.java (Main logic)
+│   ├── User.java (User account details)
+│   ├── BankOperations.java (Deposit, Withdraw, Balance Check)
+│── README.md (Project Documentation)
+│── LICENSE (Optional)
+
+How to Run the Project
+git clone https://github.com/yourusername/ATM-Management-System.git
+
+Navigate to the Project Directory
+cd ATM-Management-System
+
+
+Compile and Run the Java File
+javac ATM.java
+java ATM
+
+
